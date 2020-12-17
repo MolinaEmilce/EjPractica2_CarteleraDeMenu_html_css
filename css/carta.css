@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    width: 70%;
+    border: 2px solid rgb(68, 68, 68);
+}
+header{
+    width: 90%;
+    margin-top: 60px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(110, 109, 109);
+}
+#base_principal{
+    width: 90%;
+    margin-top: 40px;
+    overflow: hidden;
+}
+nav{
+    width: 20%;
+    float: left;
+
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    line-height: 40px;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 19px;
+}
+nav li a:hover{
+ border-bottom: 1px solid rgba(207, 202, 202, 0.521);
+ opacity: 0.6;
+}
+main{
+    float: right;
+    border-left: 1px solid rgb(139, 139, 139);
+    padding-left: 50px;
+    
+}
+
+main section h4{
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+main section img{
+    width: 40%;
+    float: right;
+    padding: 2px;
+    border: 5px solid hsla(57, 53%, 84%, 0.226);
+}
+main section article{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+main section article h3{
+    font-size: 20px;
+}
+footer{
+    background-color: hsla(57, 53%, 84%, 0.568);
+    clear: both;
+    margin-top: 60px;
+}
+footer article{
+padding: 40px 70px;
+overflow: hidden;    
+}
+footer article img{
+    width: 15%;
+    float: left;
+}
+footer article ul{
+    float: right;
+    list-style: none;
+    line-height:25px;
+}
+footer article ul li{
+    margin-top: 2px;
+}
+footer article ul li:first-child{
+margin-bottom: 16px;
+border-bottom: 1px solid rgb(182, 178, 178);
+}
+footer article ul li a{
+text-decoration: none;
+font-size: 16px;
+color: rgb(165, 170, 137);
+
+}
+
+#back{
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <form action="#" method="POST">
+        
+        <div class="cadaCajaForm">
+                <h2>¿De donde sos?</h2>
+                <select id="lugar" name=zona required>
+                    <option>Seleccioná una opción </option>
+                    <option value="zona sur">Zona sur</option>
+                    <option value="zona este">Zone este</option>
+                    <option value="zona oeste">Zona oeste</option>
+                </select>
+        </div>
+
+        <div class="cadaCajaForm">
+                <h2>¿Qué te pareció la iluminación del ambiente?</h2>
+                    <input type="checkbox" id="muyAcorde">
+                    <label for="muyAcorde">Muy acorde</label><br>
+        
+                    <input type="checkbox" id="buena">
+                    <label for="buena">Buena, pero podría mejorar</label><br>
+
+                    
+                    <input type="checkbox" id="mala">
+                    <label for="mala">Mala</label>
+        </div>
+
+        <div class="cadaCajaForm">
+                <h2>¿Qué te tipo de plato fue el que más te gustó?</h2>
+               
+                    <input type="checkbox" id="entrada" value="entrada" >
+                    <label for="entrada"> Entrada</label> <br>
+                
+                    <input type="checkbox" id="platoPrincipal" value="principal">
+                    <label for="platoPrincipal">Plato principal</label><br>
+
+                
+                    <input type="checkbox" id="postre" value="postre">
+                    <label for="postre">Postre</label><br>
+                
+                    <input type="checkbox" id="otros" value="otros">
+                    <label for="otros">Otros</label><br>
+        </div>
+        
+        <div class="cadaCajaForm">
+            <h2>¿Recomiendas el lugar?</h2>
+                <input type="radio" name="respuesta"  value="si" id="si">
+                <label for="si">Si</label>
+
+                <input type="radio"  name="respuesta" value="no" id="no">
+                <label for="no">No</label>
+        </div>
+    
+        <div class="cadaCajaForm">
+            <h2>¿Porqué?</h2>
+                <textarea name="mensaje"  cols="80" rows="10" placeholder="Esscribe tu respuesta"></textarea>
+        </div>
+
+        <div class="cadaCajaForm">
+            <h2>Dejanos tu contacto y nos comunicaremos a la brevedad</h2>
+                <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required><br>
+                
+                <label for="email">Email: </label> <input type="email" name="email" id="email" placeholder="Tu email" required>
+        </div>
+
+        <div class="cadaCajaForm">
+            <button type="submit" value="enviar" name="enviar" id="enviar">Enviar</button>
+            <button type="reset" value="borrar" name="borrar" id="borrar" >Resetear</button>
+        </div>
+    </form>
+</body>
+</html>
